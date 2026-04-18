@@ -1,0 +1,17 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 my-5">
+  <div class="grid gap-4">
+    @for (gif of dividedGifs()[0]; track gif.id) {
+      <gif-list-item class="relative" [imageTitle]="gif.title" [imageUrl]="gif.url" />
+    }
+  </div>
+  <div class="grid gap-4">
+    @for (gif of dividedGifs()[1]; track gif.id) {
+      <gif-list-item class="relative" [imageTitle]="gif.title" [imageUrl]="gif.url" />
+    }
+  </div>
+  <div class="grid gap-4">
+    @for (gif of dividedGifs()[2]; track gif.id) {
+      <gif-list-item class="relative" [imageTitle]="gif.title" [imageUrl]="gif.url" />
+    }
+  </div>
+</div>

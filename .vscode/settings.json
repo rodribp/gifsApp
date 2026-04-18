@@ -1,0 +1,12 @@
+{
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-*": {
+      "externalTemplate": true,
+      "skipStyle": true,
+      "withClassPrefix": true
+    },
+    "angular-component": {
+      "skipChangeDetectionOnPush": true
+    }
+  }
+}
